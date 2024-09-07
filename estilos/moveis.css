@@ -1,0 +1,129 @@
+@charset "UTF=8";
+
+/*para dispositivos móveis*/
+
+@font-face {
+    font-family: 'bold';
+    src: url('../fontes/HankenGrotesk-Bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'boldg';
+    src: url('../fontes/HankenGrotesk-ExtraBold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('../fontes/HankenGrotesk-Medium.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'vari';
+    src: url('../fontes/HankenGrotesk-VariableFont_wght.ttf') format('opentype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+div#principal{
+    
+    background-image: linear-gradient(to top,rgb(84, 13, 170),rgb(107, 37, 192));
+    height: 270px;
+    border-radius: 0px 0px 20px 20px;
+    font-family: 'bold';
+    color: rgba(255, 255, 255, 0.849);
+    text-shadow: px 1px 3px rgba(0, 0, 0, 0.459);
+    font-family: 'vari';
+    text-align: center;
+}
+
+h1.p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+div#numero{
+    margin-top: 40px;
+}
+
+div#numero > span.descnum{
+    font-size: 60px;
+    border-radius: 50%;
+    padding: 30px;
+    background-image: linear-gradient(to top,rgba(103, 19, 205, 0.849), rgba(62, 11, 123, 0.849));
+}
+span.i{
+    display: block;
+}
+
+h1.p2{
+    font-size: 1.4em;
+   padding-top: 10px;
+}
+
+div#sumario{
+    font-family: 'bold';
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article#bloco > p{
+    display: inline-block;
+}
+
+p#dir{
+    text-indent: 250px;
+}
+
+p.e{
+    text-indent: 258px;
+}
+
+h1.sum{
+    text-indent: 50px;
+    padding-top: 7px;
+}
+
+p.r{
+    color: red;
+}
+
+p.m{
+    color: rgb(209, 209, 53);
+}
+
+p.v{
+    color: rgb(12, 197, 194);
+}
+
+p.vis{
+    color: blueviolet;
+}
+
+article#bloco{
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+span#sp{
+    font-size: 1.3em;
+    width: 40px;
+    display: inline;
+}
