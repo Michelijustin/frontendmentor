@@ -28,16 +28,6 @@
 }
 
 
-html,body{
-    height: 100vh;
-    width: 100vw;
-}
-
-main{
-    height: 100vh;
-    width: 100vw;
-}
-
 div#principal{
     
     background-image: linear-gradient(to top,rgb(84, 13, 170),rgb(107, 37, 192));
@@ -77,8 +67,6 @@ h1.p2{
 div#sumario{
     font-family: 'bold';
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 article#bloco > p{
@@ -86,44 +74,57 @@ article#bloco > p{
 }
 
 p#dir{
-    text-indent: 250px;
+    float: right;
+    transform: translateY(-14px);
 }
 
 p.e{
-    text-indent: 258px;
+    float: right;
+    transform: translateY(-14px);
 }
 
 h1.sum{
-    text-indent: 50px;
     padding-top: 7px;
+    text-align: center;
+    
 }
 
 p.r{
     color: red;
+    float: left; 
+    transform: translateY(-14px);
 }
 
 p.m{
     color: rgb(209, 209, 53);
+    float: left;
+    transform: translateY(-14px);
 }
 
 p.v{
     color: rgb(12, 197, 194);
+    float: left; 
+    transform: translateY(-14px);
 }
 
 p.vis{
     color: blueviolet;
+    float: left; 
+    transform: translateY(-14px);
 }
 
 article#bloco{
+    max-width: 400px;
+    margin: auto;
     margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 span#sp{
     font-size: 1.3em;
     width: 40px;
     display: inline;
+    
 }
