@@ -31,13 +31,17 @@
 div#principal{
     
     background-image: linear-gradient(to top,#540daa,rgb(107, 37, 192));
-    height: 270px;
+    height: 280px;
     border-radius: 0px 0px 20px 20px;
     font-family: 'bold';
     color: rgba(255, 255, 255, 0.849);
     text-shadow: px 1px 3px rgba(0, 0, 0, 0.459);
     font-family: 'vari';
     text-align: center;
+}
+
+div#principal > p{
+    padding-top: 15px;
 }
 
 h1.p{
@@ -50,7 +54,7 @@ div#numero{
 }
 
 div#numero > span.descnum{
-    font-size: 60px;
+    font-size: 50px;
     border-radius: 50%;
     padding: 30px;
     background-image: linear-gradient(to top,rgba(103, 19, 205, 0.849), rgba(62, 11, 123, 0.849));
@@ -66,7 +70,6 @@ h1.p2{
 
 div#sumario{
     font-family: 'bold';
-    text-align: center;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -87,8 +90,9 @@ p.e{
 
 h1.sum{
     padding-top: 7px;
-    text-align: center;
-    
+    text-indent: 30px;
+    font-size: 1.4em;
+    font-family: 'vari';
 }
 
 p.r{
@@ -143,6 +147,7 @@ input[type=submit]{
     border: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 1.1em;
 }
 
 input[type=submit]:hover{
