@@ -24,13 +24,13 @@
 *{
     margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
 }
 
 
 div#principal{
     
-    background-image: linear-gradient(to top,#540daa,rgb(107, 37, 192));
+    background-image: linear-gradient(to top,#540daa,#6b25c0);
     height: 280px;
     border-radius: 0px 0px 20px 20px;
     font-family: 'bold';
@@ -38,6 +38,7 @@ div#principal{
     text-shadow: px 1px 3px rgba(0, 0, 0, 0.459);
     font-family: 'vari';
     text-align: center;
+    display: block;
 }
 
 div#principal > p{
@@ -53,7 +54,7 @@ div#numero{
     margin-top: 40px;
 }
 
-div#numero > span.descnum{
+span.descnum{
     font-size: 50px;
     border-radius: 50%;
     padding: 30px;
@@ -70,8 +71,9 @@ h1.p2{
 
 div#sumario{
     font-family: 'bold';
-    margin-left: 20px;
-    margin-right: 20px;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 article#bloco > p{
@@ -125,7 +127,9 @@ article#bloco{
     margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    padding: 35px;
+    padding: 30px;
+    display: block;
+    padding-left: 10px;
 }
 
 span#sp{
@@ -137,7 +141,6 @@ span#sp{
 
 input[type=submit]{
     font-family: 'bold';
-    display: block;
     margin: auto;
     padding: 20px;
     width: 80%;
@@ -148,6 +151,7 @@ input[type=submit]{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.1em;
+    display: block;
 }
 
 input[type=submit]:hover{
